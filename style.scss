@@ -1,0 +1,62 @@
+$color1 : #0fb3ac;
+$color2 : #ed9363;
+$bgColor : #dcdcdc;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  background: $bgColor;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  h1{
+    color: $color1;
+    margin: 2rem 0 5rem 0;
+  }
+  hr{
+    width: 90%;
+    height: 1px;
+    border: 1px solid $color2;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 10rem 0 2rem 0;
+    label{
+      color: $color1;
+      font-size: 1.2rem;
+    }
+    #id-password{
+      margin: 2rem 0 2rem 0;
+      border: 2px dotted $color2;
+      padding: 5px;
+      border-radius: 7px;
+      color: $color2;
+    }
+  }
+  #id-submit{
+    background: $color1;
+    border: none;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border-radius: 7px;
+    &:hover{
+      background: $color2;
+      transform: scale(1.02);
+      color: white;
+    }
+  }
+}
+
+

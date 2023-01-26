@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  background: #dcdcdc;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+div h1 {
+  color: #0fb3ac;
+  margin: 2rem 0 5rem 0;
+}
+div hr {
+  width: 90%;
+  height: 1px;
+  border: 1px solid #ed9363;
+}
+div form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 10rem 0 2rem 0;
+}
+div form label {
+  color: #0fb3ac;
+  font-size: 1.2rem;
+}
+div form #id-password {
+  margin: 2rem 0 2rem 0;
+  border: 2px dotted #ed9363;
+  padding: 5px;
+  border-radius: 7px;
+  color: #ed9363;
+}
+div #id-submit {
+  background: #0fb3ac;
+  border: none;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  border-radius: 7px;
+}
+div #id-submit:hover {
+  background: #ed9363;
+  transform: scale(1.02);
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
